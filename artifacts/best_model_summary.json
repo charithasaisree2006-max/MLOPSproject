@@ -1,0 +1,18 @@
+{
+    "best_model": "RandomForestRegressor",
+    "target": "views",
+    "features": [
+        "category_id",
+        "likes",
+        "dislikes",
+        "comment_count"
+    ],
+    "metrics": {
+        "mae": 330020.13239325286,
+        "mse": 868258350289.0928,
+        "rmse": 931803.815343709,
+        "r2": 0.9177423278280802
+    },
+    "random_state": 42,
+    "n_estimators": 200
+}
